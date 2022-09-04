@@ -1,12 +1,89 @@
 ---
-title: 首頁
+title: web w2
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<h1>
-  這是一段話
-</h1>
 
-<div class="box"></div>
+<main>
+  <section class="about">
+    <div class="container flex-column flex-center">
+      <h2 class="title mb-5" data-aos="fade-up" data-aos-delay="100">About</h2>
+      <img src="./assets/images/photo.png" alt="" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="name" data-aos="fade-up" data-aos-delay="500">Joanne Chen</h3>
+        <h3 class="date" data-aos="fade-up" data-aos-delay="700">1997/10/10</h3>
+        <p class="detail" data-aos="fade-up" data-aos-delay="900">National Hex School Normal University<br>Department of Visual Design</p>
+        <ul class="list-item flex-column  flex-center" data-aos="fade-up" data-aos-delay="1100">
+          <li>Founder of ‘’XXXD Official’’</li>
+          <li>Graphic Designer</li>
+          <li>Graphic Intern of Hex School</li>
+        </ul>
+      </img>
+    </div>
+  </section>
+  <section class="brand">
+    <div class="container flex-column flex-center text-white">
+      <h2 class="title" data-aos="fade-up" data-aos-delay="100">My Brand ‘’XXXD’’</h2>
+      <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Just Keep XXXD Everyday</h3>
+      <p class="text" data-aos="fade-up" data-aos-delay="500">2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
+      <ul class="brand-list d-flex flex-center flex-wrap">
+        <li data-aos="flip-left"><img src="./assets/images/brand_img1.png" alt=""></li>
+        <li data-aos="flip-left"><img src="./assets/images/brand_img2.png" alt=""></li>
+        <li data-aos="flip-left"><img src="./assets/images/brand_img3.png" alt=""></li>
+      </ul>
+    </div>
+  </section>
+  <section class="work">
+    <div class="container flex-column flex-center">
+    <h2 class="title mb-2" data-aos="fade-up" data-aos-delay="100">Other Works</h2>
+    <p class="text" data-aos="fade-up" data-aos-delay="300">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
+    <ul class="work-list flex-between">
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img1.png" alt="">
+        <p>海報設計/2017</p>
+      </li>
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img2.png" alt="">
+        <p>海報設計/2018</p>
+      </li>
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img3.png" alt="">
+        <p>海報設計/2018</p>
+      </li>
+    </ul>
+    <ul class="work-list flex-between">
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img4.png" alt="">
+        <p>概念攝影/2018</p>
+      </li>
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img5.png" alt="">
+        <p>概念攝影/2018</p>
+      </li>
+    </ul>
+    <ul class="work-list flex-between">
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img6.png" alt="">
+        <p>sasa 酒標設計/2019</p>
+      </li>
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img7.png" alt="">
+        <p>攝影創作/2018</p>
+      </li>
+      <li>
+        <img data-aos="zoom-in" src="./assets/images/work_img8.png" alt="">
+        <p>官網設計/2020</p>
+      </li>
+    </ul>
+  </div>
+  </section>
+</main>
+<footer class="contact">
+  <div class="container flex-column flex-center text-white" data-aos="fade-down">
+    <h2 class="title mb-2">Contact</h2>
+    <p>Mail：xxxd@hexschool.com</p>
+    <p>Phone Number：0910123456</p>
+  </div>
+</footer>
+
